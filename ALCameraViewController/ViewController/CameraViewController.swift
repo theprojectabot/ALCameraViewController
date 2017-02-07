@@ -263,7 +263,7 @@ public class CameraViewController: UIViewController {
         super.viewDidLoad()
         addCameraObserver()
         addRotateObserver()
-        setupVolumeControl()
+        //setupVolumeControl()
         setupActions()
         checkPermissions()
         cameraView.configureFocus()
